@@ -14,9 +14,6 @@ class SearchResultViewController: UIViewController {
     var CityTyped : String?
     
     
-    let kaan = "kaan"
-    
-    
     
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var City: UILabel!

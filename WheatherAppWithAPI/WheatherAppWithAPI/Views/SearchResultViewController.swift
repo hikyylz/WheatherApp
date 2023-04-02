@@ -14,6 +14,10 @@ class SearchResultViewController: UIViewController {
     var CityTyped : String?
     
     
+    let kaan = "kaan"
+    
+    
+    
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var City: UILabel!
     @IBOutlet var Regian: UILabel!
@@ -64,7 +68,8 @@ class SearchResultViewController: UIViewController {
                             self.imageView.image = UIImage(named: "nice")
                         }else{
                             self.imageView.image = UIImage(named: "tunder")
-                            self.LastUpdatedTime.textColor = .white
+                            self.Regian.textColor = .white
+                            self.StatusText.textColor = .white
                         }
                         
                         

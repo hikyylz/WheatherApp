@@ -13,8 +13,6 @@ class SearchResultViewController: UIViewController {
     var url : URL?
     var CityTyped : String?
     
-    
-    
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var City: UILabel!
     @IBOutlet var Regian: UILabel!
@@ -28,14 +26,9 @@ class SearchResultViewController: UIViewController {
 
         navigationController?.navigationBar.tintColor = .black
         navigationController?.navigationBar.isHidden = false
-        
-        
-        
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
         // 1- internetten typedcity nin bilgilerini çek
         // 2- internetten çekilen json data sını istediğim formatta store et
         // 3- istediğim formatta elimde tutuğum veriyi bu VC un view larında göster.
@@ -48,9 +41,7 @@ class SearchResultViewController: UIViewController {
             return
         }
         
-        
         url = URL(string: "https://api.weatherapi.com/v1/current.json?key=\(api_key)&q=\(CityTyped!)&aqi=no")
-        
         
         WebService.dowlandData(URL: url!) { returnedData in
             if returnedData != nil{

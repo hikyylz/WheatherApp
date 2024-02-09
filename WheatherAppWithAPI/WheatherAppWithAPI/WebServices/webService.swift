@@ -10,7 +10,7 @@ import Foundation
 struct WebService{
     
     
-    // bu method verilen url deki json data sını indirip Dic<String,Any> formatında işemeye verecek bana.
+    // bu method verilen url deki json data sını indirip Dic<String,Any> formatında işleyerek verecek bana.
     static func dowlandData(URL : URL , completion: @escaping ( wheatherInfo? ) -> ()){
         
         URLSession.shared.dataTask(with: URL) { dataFromInternet, _, error in

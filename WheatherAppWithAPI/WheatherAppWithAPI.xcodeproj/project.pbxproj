@@ -69,6 +69,8 @@
 				EC0A63EC29C5DAF200BFC10B /* ViewModel */,
 				EC0A63EA29C5DACF00BFC10B /* WebServices */,
 				EC0A63D929C5DAB500BFC10B /* Main.storyboard */,
+				EC0A63D329C5DAB500BFC10B /* AppDelegate.swift */,
+				EC0A63D529C5DAB500BFC10B /* SceneDelegate.swift */,
 				EC0A63DF29C5DAB700BFC10B /* Assets.xcassets */,
 				EC0A63E129C5DAB700BFC10B /* LaunchScreen.storyboard */,
 				EC0A63E429C5DAB700BFC10B /* Info.plist */,
@@ -103,8 +105,6 @@
 		EC0A63ED29C5DB0500BFC10B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EC0A63D329C5DAB500BFC10B /* AppDelegate.swift */,
-				EC0A63D529C5DAB500BFC10B /* SceneDelegate.swift */,
 				EC0A63D729C5DAB500BFC10B /* EnrtanceOfApp.swift */,
 				EC0A63EE29C5DF5400BFC10B /* SearchResultViewController.swift */,
 			);
